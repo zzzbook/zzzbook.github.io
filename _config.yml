@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: '廖柯宇的独立博客'
-description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+title: '粽籺的图书馆'
+description: '梦想成为全栈的小垃圾，记录开发中的问题，粽籺的个人图书馆~'
+keyword: '粽籺, 粽籺的博客, 全栈, Android, 前端, 后端, 数据库, , 设计'
 url: '' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
@@ -21,12 +21,12 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2020
 
 # Author 配置博主信息
-author: '廖柯宇'
-nickname: '悟空'
-bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
+author: '粽籺'
+nickname: 'ZongHe'
+bio: '一个梦想成为全栈工程师的小垃圾'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -44,7 +44,7 @@ comments:
 mathjax: true
 
 # Share
-social-share: true
+social-share: false
 social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
 # theme color 主题皮肤
