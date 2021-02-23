@@ -3,6 +3,7 @@ title: '粽籺的图书馆'
 description: '梦想成为全栈的小垃圾，记录开发中的问题，粽籺的个人图书馆~'
 keyword: '粽籺, 粽籺的博客, 全栈, Android, 前端, 后端, 数据库, , 设计'
 url: '' # your host
+img: /assets/img
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
