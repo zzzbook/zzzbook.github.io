@@ -1,5 +1,4 @@
-/* PrismJS 1.23.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+aspnet+c+csharp+cpp+css-extras+docker+git+http+ignore+jq+js-extras+json+json5+jsonp+kotlin+less+markdown+mongodb+nginx+python+sql+swift+typescript */
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+coffeescript+go+java+php+python+sass+scss+swift */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -12,7 +11,6 @@ pre[class*="language-"] {
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -45,8 +43,9 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
+	padding-left: .3em;
+	padding-right: .3em;
+	margin: .2em
 	white-space: normal;
 }
 
@@ -54,14 +53,14 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #8292a2;
+	color: slategray;
 }
 
 .token.punctuation {
 	color: #f8f8f2;
 }
 
-.token.namespace {
+.namespace {
 	opacity: .7;
 }
 
@@ -98,8 +97,7 @@ pre[class*="language-"] {
 
 .token.atrule,
 .token.attr-value,
-.token.function,
-.token.class-name {
+.token.function {
 	color: #e6db74;
 }
 
