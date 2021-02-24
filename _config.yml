@@ -1,8 +1,8 @@
 # Site settings 配置站点
-title: '粽籺的图书馆'
-description: '梦想成为全栈的小垃圾，记录开发中的问题，粽籺的个人图书馆~'
-keyword: '粽籺, 粽籺的博客, 全栈, Android, 前端, 后端, 数据库, , 设计'
-url: '' # your host
+title: '宗泽的图书馆'
+description: '梦想成为全栈的小垃圾，记录开发中的问题，宗泽的个人博客~'
+keyword: '赵宗泽, 宗泽的博客, 全栈, Android, 前端, 后端, 数据库, 设计'
+url: 'zzzbook.github.com' # your host
 img: /assets/img
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
@@ -22,11 +22,11 @@ nav:
 
 # Footer
 footer:
-  since: 2020
+  since: 2021
 
 # Author 配置博主信息
-author: '粽籺'
-nickname: 'ZongHe'
+author: '赵宗泽'
+nickname: 'ZhaoZongze'
 bio: '梦想成为全栈工程师的小垃圾'
 avatar: '/assets/img/profile.png'
 
@@ -34,7 +34,7 @@ avatar: '/assets/img/profile.png'
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments 评论功能
 comments:
