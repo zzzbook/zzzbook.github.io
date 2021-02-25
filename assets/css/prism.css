@@ -129,12 +129,12 @@ pre[class*="language-"] {
 }
 
 ::-webkit-scrollbar-thumb{
-	border-radius: 10px
-	background: rgb(167 182 194 / 60%)
-	-webkit-box-shadow: none
-	min-height: 50px
+	border-radius: 10px;
+	background: rgb(167 182 194 / 60%);
+	-webkit-box-shadow: none;
+	min-height: 50p;
 }
 
 ::-webkit-scrollbar-thumb:active{
-	background: hsl(0deg 0% 84% / 85%)
+	background: hsl(0deg 0% 84% / 85%);
 }
