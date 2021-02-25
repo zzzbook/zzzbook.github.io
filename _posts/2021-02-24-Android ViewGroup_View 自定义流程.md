@@ -11,9 +11,9 @@ tags: Android
 
 ## 基础概念
 
-在自定义控件之前，我们先简单了解一下关于宽度与高度的范围定义，控件的实际宽度 `realWidth = paddingLeft + contentWidth + paddingRight`，控件的占位宽度 `occupyWidtd = marginLeft + viewRealWidth + marginRight`，那么高度同理。以上范围定义会分别在测量过程与定位过程中使用到。
-
-
+- 在自定义控件之前，我们先简单了解一下关于宽度与高度的范围定义，高度同理。以上范围定义会分别在测量过程与定位过程中使用到。
+  - 控件的实际宽度 `realWidth = paddingLeft + contentWidth + paddingRight`
+  - 控件的占位宽度 `occupyWidtd = marginLeft + viewRealWidth + marginRight`
 
 ## 测量（onMeasure）
 
