@@ -36,6 +36,15 @@ MeasureSpec 是一个 32 位的 int 值，高 2 位代表 SpecMode，即测量�
 | AT_MOST                            | 精确值，EXACTLY | Group Size，AT_MOST     | Group Size，AT_MOST     |
 | UNSPECIFIED                        | 精确值，EXACTLY | Group Size，UNSPECIFIED | Group Size，UNSPECIFIED |
 
+- 最外层 Group 与 子 View 测量
+
+| Group 参数 \ View 参数 | 精确值      | MATCH_PARENT | WRAP_CONTENT |
+| ---------------------- | ----------- | ------------ | ------------ |
+| 精确值                 | EXACTLY     | EXACTLY      | AT_MOST      |
+| MATCH_PARENT           | EXACTLY     | EXACTLY      | AT_MOST      |
+| WRAP_CONTENT           | EXACTLY     | EXACTLY      | AT_MOST      |
+| 滚动                   | UNSPECIFIED | —            | UNSPECIFIED  |
+
 ### 测量过程
 
 1. 自定义 View 需要重写 `onMeasure()`方法，否则 `WRAP_CONTENT` 相当于 `MATCH_PARENT`，ViewGroup 可根据自己的排列需求重写该方法
