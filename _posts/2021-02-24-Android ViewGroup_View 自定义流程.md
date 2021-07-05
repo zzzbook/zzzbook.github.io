@@ -4,7 +4,6 @@ title: Android ViewGroup / View 自定义流程
 date: 2021-02-23
 categories: Android
 tags: Android
-
 ---
 
 # ViewGroup / View 自定义流程
@@ -134,9 +133,8 @@ MeasureSpec 是一个 32 位的 int 值，高 2 位代表 SpecMode，即测量�
     ```kotlin
     View.inflate(context, R.layout.xxx, this)
     // 或
-  LayoutInflater.from(context).inflate(R.layout.xxx, this, true)
+    LayoutInflater.from(context).inflate(R.layout.xxx, this, true)
     ```
-    
 
 ### 动态添加元素
 

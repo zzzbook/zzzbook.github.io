@@ -4,7 +4,6 @@ title: Android Paint 基础属性
 date: 2021-02-27
 categories: Android
 tags: Android
-
 ---
 
 # Paint 基础属性应用
