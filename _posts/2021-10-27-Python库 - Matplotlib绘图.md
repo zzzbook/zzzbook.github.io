@@ -13,9 +13,9 @@ tags: Python
 
 ## 基础绘图
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211027203203206.png" alt="image-20211027203203206" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211027203203206.png" alt="image-20211027203203206" style="zoom:50%;" />
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211027203440026.png" alt="image-20211027203440026" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211027203440026.png" alt="image-20211027203440026" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -35,7 +35,7 @@ plt.show()
 
 ### 开启多个 Figure
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211027204826776.png" alt="image-20211027204826776" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211027204826776.png" alt="image-20211027204826776" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -59,7 +59,7 @@ plt.show()
 
 ### Figure 参数设置
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211027213104046.png" alt="image-20211027213104046" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211027213104046.png" alt="image-20211027213104046" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -101,7 +101,7 @@ plt.show()
 
 ## Legend 图例
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211027215359235.png" alt="image-20211027215359235" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211027215359235.png" alt="image-20211027215359235" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -124,7 +124,7 @@ plt.show()
 
 ## Annotation 标注
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211030092819030.png" alt="image-20211030092819030" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211030092819030.png" alt="image-20211030092819030" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -154,7 +154,7 @@ plt.show()
 
 ## tick 坐标轴标签
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211030094216636.png" alt="image-20211030094216636" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211030094216636.png" alt="image-20211030094216636" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -175,7 +175,7 @@ plt.show()
 
 ## Scatter 散点图
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211030095440769.png" alt="image-20211030095440769" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211030095440769.png" alt="image-20211030095440769" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -200,7 +200,7 @@ plt.show()
 
 ## Bar 柱状图
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211030104023217.png" alt="image-20211030104023217" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211030104023217.png" alt="image-20211030104023217" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -226,7 +226,7 @@ plt.show()
 
 ## Contours 等高线图
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102183828065.png" alt="image-20211102183828065" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102183828065.png" alt="image-20211102183828065" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -254,7 +254,7 @@ plt.show()
 
 ## Image 图片
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102213926421.png" alt="image-20211102213926421" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102213926421.png" alt="image-20211102213926421" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -277,7 +277,7 @@ plt.show()
 
 ## 3D 图像
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102220927746.png" alt="image-20211102220927746" style="zoom:67%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102220927746.png" alt="image-20211102220927746" style="zoom:67%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -305,7 +305,7 @@ plt.show()
 
 ### 方法一
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102221849172.png" alt="image-20211102221849172" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102221849172.png" alt="image-20211102221849172" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -326,7 +326,7 @@ plt.show()
 
 ### 方法二
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102222602150.png" alt="image-20211102222602150" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102222602150.png" alt="image-20211102222602150" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -362,7 +362,7 @@ plt.show()
 
 ### 方法四
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102223156371.png" alt="image-20211102223156371" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102223156371.png" alt="image-20211102223156371" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -375,7 +375,7 @@ plt.show()
 
 ## 图中图
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102223820573.png" alt="image-20211102223820573" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102223820573.png" alt="image-20211102223820573" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -400,7 +400,7 @@ plt.show()
 
 ## 次坐标轴
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/image-20211102224138330.png" alt="image-20211102224138330" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/image-20211102224138330.png" alt="image-20211102224138330" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
@@ -421,7 +421,7 @@ plt.show()
 
 ## Animation 动画
 
-<img src="http://r0ykjq69u.hb-bkt.clouddn.com/animation.gif" alt="animation" style="zoom:50%;" />
+<img src="http://markdown.zzzbook.cn/animation.gif" alt="animation" style="zoom:50%;" />
 
 ```python
 import matplotlib.pyplot as plt
