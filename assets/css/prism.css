@@ -7,7 +7,7 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: #f8f8f2;
+	color: #333333;
 	background: none;
 	/* text-shadow: 0 1px rgba(0, 0, 0, 0.3); */
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -55,11 +55,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #f5f8fab8;
+	color: #666666;
 }
 
 .token.punctuation {
-	color: #f8f8f2;
+	color: #666666;
 }
 
 .namespace {
