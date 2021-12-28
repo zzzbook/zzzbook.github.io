@@ -51,15 +51,18 @@ pre[class*="language-"] {
 	border-radius: 0.3em;
 }
 
-.token.comment,
+.token.comment{
+	color: #585555;
+}
+
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: #666666;
+	color: #333333;
 }
 
 .token.punctuation {
-	color: #666666;
+	color: #333333;
 }
 
 .namespace {
@@ -94,7 +97,7 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string,
 .token.variable {
-	color: #f8f8f2;
+	color: #333333;
 }
 
 .token.atrule,
